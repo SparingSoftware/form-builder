@@ -1,0 +1,19 @@
+{
+  "name": "form-builder",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SparingSoftware/form-builder.git"
+  },
+  "author": "Panowie Programiści",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SparingSoftware/form-builder/issues"
+  },
+  "homepage": "https://github.com/SparingSoftware/form-builder#readme"
+}
