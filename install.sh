@@ -39,7 +39,7 @@ cd ../../..
 
 # Install npm dependencies
 green_text "Install dependencies..."
-npm i vee-validate vue-smooth-reflow vue-wait
+npm i vee-validate vue-smooth-reflow vue-wait flat
 
 # Remove installer
 rm install.sh
