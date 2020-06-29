@@ -168,7 +168,6 @@ export default {
       // and this function doesnt return a promise
       // - all work here is done
       if (!isResponseAPromise && !this.serviceMethod) {
-        this.$wait.end(this.waitFor)
         this.$emit('success', {})
         return
       }
@@ -177,6 +176,8 @@ export default {
       if (this.serviceMethod && !isResponseAPromise) {
         throw new Error('FormBuilder: The service method must return a promise!')
       }
+
+      this.$wait.start(this.waitFor)
 
       try {
         // Get response from promise
