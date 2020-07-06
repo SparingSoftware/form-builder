@@ -27,14 +27,14 @@ cd ..
 # Download Form Builder
 green_text "Download Form Builder..."
 cd components/formBuilder
-curl -O "${URL}/components/{FormBuilder,Loader,SmooothReflow}.vue"
+curl -O "${URL}/components/formBuilder/{FormBuilder,Loader,SmooothReflow}.vue"
 
 # Download Adapters
 green_text "Download Adapters..."
 cd adapters
 
-curl -O "${URL}/components/adapters/adapter.mixin.js"
-curl -O "${URL}/components/adapters/Base{Input,Checkbox}.vue"
+curl -O "${URL}/components/formBuilder/adapters/adapter.mixin.js"
+curl -O "${URL}/components/formBuilder/adapters/Base{Input,Checkbox}.vue"
 cd ../../..
 
 # Install npm dependencies
