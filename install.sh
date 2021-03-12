@@ -27,7 +27,7 @@ cd ..
 # Download Form Builder
 green_text "Download Form Builder..."
 cd components/formBuilder
-curl -O "${URL}/components/formBuilder/{FormBuilder,Loader,SmooothReflow}.vue"
+curl -O "${URL}/components/formBuilder/{FormBuilder,Loader,SmoothReflow}.vue"
 
 # Download Adapters
 green_text "Download Adapters..."

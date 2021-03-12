@@ -4,8 +4,14 @@ Highly abstract and scalable tool to fast forms building in Nuxt
 ## Installation
 Requirements: cURL
 
+Windows:
 ```sh
 $ curl -O https://raw.githubusercontent.com/SparingSoftware/form-builder/master/install.sh && ./install.sh
+```
+
+Mac:
+```sh
+$ curl -O https://raw.githubusercontent.com/SparingSoftware/form-builder/master/install.sh && sh install.sh
 ```
 
 ## Docs
